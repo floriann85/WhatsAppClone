@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_login);
 
         // den Title für die Activity setzen
-        setTitle("Log In");
+        setTitle("WhatsApp - Log In");
 
         // initialisieren
         edtLoginEmail = findViewById(R.id.edtLoginEmail);
