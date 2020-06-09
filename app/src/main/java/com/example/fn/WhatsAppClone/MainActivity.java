@@ -172,6 +172,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    @Override
     // Methoden zum Beenden der App mit der Rücktaste
     public void onBackPressed() {
         if (backPressedTime + 2000 > System.currentTimeMillis()) {
