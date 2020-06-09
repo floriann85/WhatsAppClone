@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // den Title für die Activity setzen
         setTitle("Welcome to WhatsApp!");
 
+        // Information einer Installation durch einen User,
+        // diese wird auf dem Server/ Backend gespeichert
         ParseInstallation.getCurrentInstallation().saveInBackground();
 
         // initialisieren
@@ -170,7 +172,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    @Override
     // Methoden zum Beenden der App mit der Rücktaste
     public void onBackPressed() {
         if (backPressedTime + 2000 > System.currentTimeMillis()) {
