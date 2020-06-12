@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Switch-Case für Auswahl/ Funktion Button
         switch (view.getId()) {
             case R.id.btnSignUp:
-                // Abfrage ob die Werte bei der Registrierung gefüllt sind
+                // Abfrage ob die Werte bei der Registrierung nicht gefüllt sind
                 if (edtEmail.getText().toString().equals("") ||
                         edtUsername.getText().toString().equals("") ||
                         edtPassword.getText().toString().equals("")) {

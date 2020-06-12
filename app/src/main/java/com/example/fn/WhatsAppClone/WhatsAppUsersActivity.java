@@ -155,7 +155,9 @@ public class WhatsAppUsersActivity extends AppCompatActivity implements AdapterV
                         // Intent anlegen mit Zuordnung der Klasse für Activity wechseln
                         // überprüfen ob kein Fehler aufgetreten ist
                         if (e == null) {
-                            Intent intent = new Intent(WhatsAppUsersActivity.this, MainActivity.class);
+                            // Intent anlegen mit Zuordnung der Klasse für Activity wechseln
+                            Intent intent = new Intent(WhatsAppUsersActivity.this,
+                                    MainActivity.class);
                             // die Activity starten
                             startActivity(intent);
                             finish();
